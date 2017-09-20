@@ -4,14 +4,12 @@
 
 ### Usage of the library :
 * Step 1 : 
-Add following code in build.gradle in buildscript section
+Add following code in build.gradle (By default jcenter() is present in repositories)
 
 ```sh
-buildscript {
-    repositories {
-        jcenter()
-    }
-} 
+repositories {
+    jcenter()
+}
 ```
 
 * Step 2 :
